@@ -33,7 +33,7 @@
   <PropertyGroup>
     <CFBundleName>QuestPatcher</CFBundleName>
     <CFBundleDisplayName>QuestPatcher</CFBundleDisplayName>
-    <CFBundleIdentifier>com.lauriethefish.QuestPatcher</CFBundleIdentifier>
+    <CFBundleIdentifier>com.metaqmg.QuestPatcher</CFBundleIdentifier>
     <CFBundleVersion>1.0.0</CFBundleVersion>
     <CFBundleShortVersionString>1.0.0</CFBundleShortVersionString>
     <CFBundlePackageType>APPL</CFBundlePackageType>

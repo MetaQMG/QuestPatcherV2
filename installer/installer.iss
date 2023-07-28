@@ -8,8 +8,8 @@
 #expr FileClose(VersionFile)
 #undef VersionFile
 
-#define MyAppPublisher "Lauriethefish#6700"
-#define MyAppURL "https://github.com/Lauriethefish/QuestPatcher"
+#define MyAppPublisher "kai_might_be_dead"
+#define MyAppURL "https://github.com/MetaQMG/QuestPatcherV2"
 #define MyAppExeName "QuestPatcher.exe"
 
 [Setup]

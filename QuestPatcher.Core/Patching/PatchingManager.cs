@@ -200,7 +200,7 @@ namespace QuestPatcher.Core.Patching
                 Log.Debug("Downloading libunity index for the first time . . .");
                 JsonSerializer serializer = new();
 
-                string data = await client.DownloadStringTaskAsync("https://raw.githubusercontent.com/Lauriethefish/QuestUnstrippedUnity/main/index.json");
+                string data = await client.DownloadStringTaskAsync("https://raw.githubusercontent.com/MetaQMG/QuestUnstrippedUnity/main/index.json");
                 using StringReader stringReader = new(data);
                 using JsonReader reader = new JsonTextReader(stringReader);
 
@@ -232,7 +232,7 @@ namespace QuestPatcher.Core.Patching
             using TempFile tempDownloadPath = _specialFolders.GetTempFile();
             
             await _filesDownloader.DownloadUrl(
-                    $"https://raw.githubusercontent.com/Lauriethefish/QuestUnstrippedUnity/main/versions/{correctVersion}.so",
+                    $"https://raw.githubusercontent.com/MetaQMG/QuestUnstrippedUnity/main/versions/{correctVersion}.so",
                     tempDownloadPath.Path, "libunity.so");
 
             await apkArchive.AddFileAsync(tempDownloadPath.Path, Path.Combine(libsPath, "libunity.so"), true);
