@@ -12,9 +12,9 @@
     <Authors>MetaQMG/Lauriethefish</Authors>
     <Description>A library for the parsing and saving of Android binary XML files such as the AndroidManifest.xml file inside an APK. Used in QuestPatcher for patching the manifest with added permissions.</Description>
     <Copyright>Copyright 2021 Laurie ?</Copyright>
-    <PackageProjectUrl>https://github.com/MetaQMG/QuestPatcherV2/tree/main/QuestPatcher.Axml</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/MetaQMG/QuestPatcherv3/tree/main/QuestPatcher.Axml</PackageProjectUrl>
     <PackageLicenseExpression>Zlib</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/MetaQMG/QuestPatcherV2.git</RepositoryUrl>
+    <RepositoryUrl>https://github.com/MetaQMG/QuestPatcherv3.git</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>axml, android, xml</PackageTags>
     <PackageReleaseNotes>Fixed attribute order to be in ascending resource ID. This fixed the debuggable attribute not being detected by Android.</PackageReleaseNotes>

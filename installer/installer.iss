@@ -9,7 +9,7 @@
 #undef VersionFile
 
 #define MyAppPublisher "kai_might_be_dead"
-#define MyAppURL "https://github.com/MetaQMG/QuestPatcherV2"
+#define MyAppURL "https://github.com/MetaQMG/QuestPatcherv3"
 #define MyAppExeName "QuestPatcher.exe"
 
 [Setup]
